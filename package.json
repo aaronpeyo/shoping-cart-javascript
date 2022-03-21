@@ -1,0 +1,18 @@
+{
+  "name": "skeleton",
+  "version": "1.0.0",
+  "description": "Esqueleto de proyecto",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aaronpeyo",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.0"
+  },
+  "keywords": []
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/app.css">
+    <!-- fuente -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/fav-icon.svg">
+    <title>Nectar</title>
+</head>
+
+<body>
+
+    <div class="contendor-general">
+        <!-- filtradores -->
+        <header>
+            <!-- aquiva el logo -->
+            <a href="/">
+                <img src="img/logo.svg" alt="img-logo">
+            </a>
+        </header>
+        
+        <!-- cards -->
+<div class="lista-barra">
+    
+      <div class="contendor-lista">
+    
+          <div class="header-productos">
+              <div class="contenedor-titulo">
+                  <h3>Exclusive Offer</h3>
+              </div>
+              <div class="contenedor-filtros">
+                  <a id="fuits" href="#">Fuits & Vegatable</a>
+                  <a id="meat" href="#">Meat & Fish</a>
+                  <a id="beverages" href="#">Beverages</a>
+                  <a id="eggs" href="#">Dairy & Eggs</a>
+                  <a id="snaks" href="#">Bakery & Snaks</a>
+                  
+              </div>
+          </div>
+    
+          <div id="lista-productos">
+          </div>
+    
+      </div>
+</div>
+
+        <!-- barra de navegacion -->
+        <nav id="main-nav">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="img/menu-3.svg" alt="icon-menu">
+                        <span>Shop</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/menu-5.svg" alt="icon-menu">
+                        <span>Explore</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="btn-carrito" href="#">
+                        <img src="img/menu-4.svg" alt="icon-menu">
+                        <span>Cart</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/menu-1.svg" alt="icon-menu">
+                        <span>Favourite</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/menu-2.svg" alt="icon-menu">
+                        <span>Account</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- carrito de compras -->
+        <div class="contendor-carrito">
+
+            <div id="header-carrito">
+                <h4>My Cart</h4>
+                <div class="cerrar">
+                    <a href="#" id="btn-cerrar">
+                        <img src="img/cerrar.svg" alt="icon-cerrar">
+                    </a>
+                </div>
+            </div>
+
+            <div id="body-carrito">
+
+                <div class="contenedor-vacio">
+                    <div class="caja-vacio">
+                        <img src="img/carrito-vacio.png" alt="icon-vacio">
+                        <p>Aun no hay productos en tu carrito!!</p>
+                        <a id="home">Volver a la tienda</a>
+                    </div>
+
+                </div>        
+
+            </div> <!-- fin del carrito body-->
+
+            <div id="footer-carrito">
+
+                <div id="contendor-total">
+                    <p class="label-total">Total</p>
+                    <p class="total">$<span></span></p>
+                </div>
+
+                <div id="contendor-totalProductos">
+                    <p class="label-total">Num. productos</p>
+                    <p class="totalProductos"><span></span></p>
+                </div>
+
+                <a href="#" class="btn-comprar">Continuar compra</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="contenedor-success">
+
+        <div class="caja-success">
+            <img src="img/success.png" alt="icon-success">
+            <p>Su pedido ha sido aceptado</p>
+            <span>Sus artículos han sido colocados y están en camino de ser procesados</span>
+        </div>
+    </div>
+
+    <!-- scripts -->
+    <script src="js/db.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/animation.js"></script>
+
+</body>
+
+</html>
